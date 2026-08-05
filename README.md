@@ -504,8 +504,8 @@ LightGBM and XGBoost are optional experiments in the comparison script. A normal
 CipherWatch installation does not require them.
 
 ## Machine-learning algorithms
-
-### DBSCAN
+ 
+### 👉 DBSCAN
 
 **What it is:** Density-Based Spatial Clustering of Applications with Noise is
 an unsupervised clustering algorithm.
@@ -537,7 +537,7 @@ their border points form clusters. Remaining points receive the noise label.
 **CipherWatch use:** Active **Geographic Hotspots** workspace through
 `CrimeClusterer`.
 
-### Random Forest
+### 👉 Random Forest
 
 **What it is:** An ensemble of decision trees trained on varied samples and
 feature subsets.
@@ -571,7 +571,7 @@ time-location features.
 **CipherWatch use:** Implemented in `NeighborhoodRiskPredictor` and evaluated in
 `scripts/model_comparison.py`; it is not the active default dashboard predictor.
 
-### Gradient Boosting Classifier
+### 👉 Gradient Boosting Classifier
 
 **What it is:** A supervised ensemble that builds shallow decision trees
 sequentially to correct prior classification errors.
@@ -602,7 +602,7 @@ flag, and weekend flag.
 **CipherWatch use:** Active AI Risk Assessment, Predictive Intelligence, and
 Model Intelligence classifier.
 
-### Gradient Boosting Regressor
+### 👉 Gradient Boosting Regressor
 
 **What it is:** The numeric-output counterpart of gradient boosting.
 
@@ -632,7 +632,7 @@ features documented above.
 **CipherWatch use:** Active AI Risk Assessment count context, Predictive
 Intelligence regression, and Model Intelligence evaluation.
 
-### Logistic Regression
+### 👉 Logistic Regression
 
 **What it is:** A linear probabilistic classifier despite its name.
 
@@ -662,7 +662,7 @@ comparison script.
 **CipherWatch use:** Optional comparison model in
 `scripts/model_comparison.py`; not used by the live dashboard.
 
-### Decision Tree
+### 👉 Decision Tree
 
 **What it is:** A supervised model that recursively splits data into regions
 using feature thresholds.
@@ -693,7 +693,7 @@ regression.
 **CipherWatch use:** Optional classifier and regressor in
 `scripts/model_comparison.py`; not used by the live dashboard.
 
-### LightGBM
+### 👉 LightGBM
 
 **What it is:** A high-performance gradient-boosted tree library that grows
 trees leaf-wise.
@@ -726,7 +726,7 @@ It is not declared in `requirements.txt`, not used by the live dashboard, and no
 LightGBM result should be assumed unless the script is run in an environment
 where the package is installed.
 
-### XGBoost
+### 👉 XGBoost
 
 **What it is:** A regularized gradient-boosted tree library optimized for
 structured data.
